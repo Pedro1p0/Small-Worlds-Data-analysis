@@ -68,3 +68,14 @@ A diferença entre as redes sociais reside na intensidade dessas tendências. Re
 O Google Web Graph, por sua vez, representa uma estrutura da web mais balanceada, refletindo a diversidade de sites na internet, onde a distribuição de links é mais uniforme.
 
 Essas análises ilustram a importância de entender a estrutura das redes sociais e grafos em diferentes contextos. A compreensão dessas estruturas é fundamental para estratégias de marketing, influência social, otimização de mecanismos de busca e muito mais. A análise de grafos é uma ferramenta poderosa para desvendar as complexas dinâmicas das redes e grafos em nosso mundo interconectado.
+
+## Tabela no formato markdown com caracteristicas dos dados
+
+| Rede                           | Qtd Vértices | Qtd Arestas | Degree Assortativity | Qtd Componentes Conectados | Tamanho do Comp. Gigante (GCC) | Avg Clustering |
+|--------------------------------|--------------|-------------|-----------------------|---------------------------|-------------------------------|----------------|
+| Wikipedia Vote Network         | 7115         | 103689      | -0.0673               | 5                         | 7066 (0.993)                  | 0.1409         |
+| Pokec Social Network           | 1632803      | 30622564    | -0.0511               | 1                         | 1632803 (1.000)               | 0.1094         |
+| Social Circles: Twitter        | 81306        | 1768149     | -0.1406               | 1                         | 81306 (1.000)                 | 0.5653         |
+| Youtube Social Network         | 1134890      | 2987624     | -0.1138               | 1                         | 1134890 (1.000)               | 0.0808         |
+| Google Web Graph               | 875713       | 5105039     | -0.0959               | 2                         | 855802 (0.977)                | 0.5143         |
+
