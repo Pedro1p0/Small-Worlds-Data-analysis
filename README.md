@@ -120,3 +120,6 @@ A rede do Google Web Graph possui dois componentes conectados distintos, o que s
 Essa análise comparativa destas cinco redes sociais e grafos revela a diversidade impressionante nas estruturas e dinâmicas dessas plataformas. Cada uma delas é única, influenciada pela natureza de suas interações, tamanho e finalidade. O estudo das métricas, como a quantidade de vértices, a quantidade de arestas, o coeficiente de assortatividade, a quantidade de componentes conectados, o tamanho do maior componente gigante (GCC) e o coeficiente de agrupamento médio (Avg Clustering), nos ajuda a compreender melhor o funcionamento de cada rede.
 
   
+## LINK PARA O VIDEO COM UMA EXPLICAÇÃO SOBRE O PROJETO 
+
+https://drive.google.com/file/d/1J078ceO3EPhOXsXB71rPVi_RBkWmsWNB/view?usp=sharing
