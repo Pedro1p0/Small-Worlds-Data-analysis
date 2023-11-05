@@ -19,4 +19,17 @@ O projeto utiliza várias fontes de dados representando diferentes redes sociais
 
 ## Resultado da compilação dos códigos e analise dos gráficos
 
-![Resultado no VSCode](https://github.com/Pedro1p0/Small-Worlds-Data-analysis/blob/d733ab54e35fc54356d779f12813c2cb0a1bf5f2/wiki_vote_dcata.png)
+**Wikipedia Vote Network**: Um grafo que representa conexões entre editores da Wikipedia, onde as arestas indicam votos entre editores.
+  ![Resultado no VSCode](https://github.com/Pedro1p0/Small-Worlds-Data-analysis/blob/d733ab54e35fc54356d779f12813c2cb0a1bf5f2/wiki_vote_dcata.png)
+
+**Pokec Social Network**: Um grafo que descreve conexões em uma rede social eslovaca chamada Pokec.
+  ![Resultado no VSCode](https://github.com/Pedro1p0/Small-Worlds-Data-analysis/blob/348b993a34bf0a437e831ae7fc51ade5f3b9f5a2/pokec_data.png)
+
+**Social Circles: Twitter**: Dados de conexões de amizade no Twitter, representando círculos sociais.
+  ![Resultado no VSCode](https://github.com/Pedro1p0/Small-Worlds-Data-analysis/blob/348b993a34bf0a437e831ae7fc51ade5f3b9f5a2/twitter_data.png)
+
+**Youtube Social Network and Ground-Truth Communities**: Dados de conexões de amizade no YouTube, juntamente com informações sobre as comunidades reais.
+  ![Resultado no VSCode](https://github.com/Pedro1p0/Small-Worlds-Data-analysis/blob/348b993a34bf0a437e831ae7fc51ade5f3b9f5a2/youtube_data.png)
+
+**Google Web Graph**: Uma representação do grafo da web do Google, que é usado para indexação e pesquisa na web.
+  ![Resultado no VSCode](https://github.com/Pedro1p0/Small-Worlds-Data-analysis/blob/348b993a34bf0a437e831ae7fc51ade5f3b9f5a2/Google_data.png)
