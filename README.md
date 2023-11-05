@@ -17,6 +17,6 @@ O projeto utiliza várias fontes de dados representando diferentes redes sociais
 
 5. **Google Web Graph**: Uma representação do grafo da web do Google, que é usado para indexação e pesquisa na web.
 
-## Análise de Grafos
+## Resultado da compilação dos códigos e analise dos gráficos
 
-O código fornecido no repositório permite a análise e visualização de diferentes métricas dos grafos, incluindo a distribuição de graus, a centralidade dos nós, a detecção de comunidades, e muito mais. O gráfico de dispersão no código ajuda a entender a relação entre o grau dos nós e o grau médio dos vizinhos.
+![Resultado no VSCode](https://github.com/Pedro1p0/Small-Worlds-Data-analysis/blob/d733ab54e35fc54356d779f12813c2cb0a1bf5f2/wiki_vote_dcata.png)
