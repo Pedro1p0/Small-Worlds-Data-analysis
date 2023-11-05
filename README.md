@@ -73,9 +73,50 @@ Essas análises ilustram a importância de entender a estrutura das redes sociai
 
 | Rede                           | Qtd Vértices | Qtd Arestas | Degree Assortativity | Qtd Componentes Conectados | Tamanho do Comp. Gigante (GCC) | Avg Clustering |
 |--------------------------------|--------------|-------------|-----------------------|---------------------------|-------------------------------|----------------|
-| Wikipedia Vote Network         | 7115         | 103689      | -0.0673               | 5                         | 7066 (0.993)                  | 0.1409         |
-| Pokec Social Network           | 1632803      | 30622564    | -0.0511               | 1                         | 1632803 (1.000)               | 0.1094         |
-| Social Circles: Twitter        | 81306        | 1768149     | -0.1406               | 1                         | 81306 (1.000)                 | 0.5653         |
-| Youtube Social Network         | 1134890      | 2987624     | -0.1138               | 1                         | 1134890 (1.000)               | 0.0808         |
-| Google Web Graph               | 875713       | 5105039     | -0.0959               | 2                         | 855802 (0.977)                | 0.5143         |
+| Wikipedia Vote Network         | 7115         | 103689      | -0.0673               | x                         | 7066 (0.993)                  | 0.1409         |
+| Pokec Social Network           | 1632803      | 30622564    | -0.0511               | x                         | 1632803 (1.000)               | 0.1094         |
+| Social Circles: Twitter        | 81306        | 1768149     | -0.1406               | x                         | 81306 (1.000)                 | 0.5653         |
+| Youtube Social Network         | 1134890      | 2987624     | -0.1138               | x                         | 1134890 (1.000)               | 0.0808         |
+| Google Web Graph               | 875713       | 5105039     | -0.0959               | x                         | 855802 (0.977)                | 0.5143         |
 
+**Wikipedia Vote Network: Explorando a Colaboração Editorial**
+
+A Wikipedia Vote Network é uma representação das conexões entre editores da Wikipedia, onde as arestas indicam votos entre editores. Com 7.115 vértices e 103.689 arestas, esta rede reflete uma comunidade de colaboradores que tomam decisões coletivas sobre as edições da enciclopédia online. 
+
+O coeficiente de assortatividade de -0,0673 sugere que, embora a maioria dos editores não esteja fortemente conectada a outros com números semelhantes de votos, a rede mantém alguma estrutura. Além disso, a presença de cinco componentes conectados indica uma certa fragmentação na colaboração, mas o maior componente gigante (GCC) com 7.066 vértices (99,3% do total) destaca a força da interconexão entre editores. 
+
+O coeficiente de agrupamento médio (Avg Clustering) de 0,1409 reflete a tendência da rede a formar agrupamentos locais de colaboradores, enquanto o alto número de triângulos (608.389) e a fração de triângulos fechados (0,04564) indicam a presença de conexões fortes na comunidade. O diâmetro de 7, que representa o caminho mais curto entre quaisquer dois editores, revela que as informações podem fluir eficientemente na rede.
+
+**Pokec Social Network: Explorando a Amizade Online**
+
+A Pokec Social Network, uma rede social eslovaca, representa as conexões de amizade entre seus usuários. Com um número impressionante de 1.632.803 vértices e 30.622.564 arestas, a rede é substancialmente maior do que a Wikipedia Vote Network.
+
+O coeficiente de assortatividade de -0,0511 revela uma tendência decrescente na conexão de usuários, indicando que muitos usuários têm um número limitado de conexões, enquanto alguns têm um grande número de conexões. Esta estrutura é evidenciada pelo fato de que a rede tem apenas um componente conectado, onde todos os usuários estão interconectados. O tamanho do maior componente gigante (GCC) cobre 100% dos vértices, ressaltando a força da conectividade na rede.
+
+O coeficiente de agrupamento médio (Avg Clustering) de 0,1094 sugere uma tendência à formação de agrupamentos locais, enquanto o grande número de triângulos (32.557.458) e a fração de triângulos fechados (0,01611) destacam a presença de conexões significativas entre os usuários. O diâmetro de 11 indica que a rede permite que informações e interações fluam eficientemente, embora em um número ligeiramente maior de etapas.
+
+**Social Circles: Twitter - Explorando a Interação Social**
+
+A rede "Social Circles: Twitter" representa as conexões de amizade no Twitter e é composta por 81.306 vértices e 1.768.149 arestas. O coeficiente de assortatividade de -0,1406 sugere uma tendência decrescente na conexão de usuários no Twitter, refletindo a natureza seletiva de seguir ou ser seguido.
+
+A rede do Twitter possui um único componente conectado, onde todos os usuários estão interligados, e o tamanho do maior componente gigante (GCC) também abrange 100% dos vértices, indicando uma forte unidade entre os usuários. O coeficiente de agrupamento médio (Avg Clustering) é notavelmente alto, com um valor de 0,5653, o que indica uma tendência à formação de agrupamentos locais na rede. O alto número de triângulos (13.082.506) e a fração de triângulos fechados (0,06415) evidenciam conexões fortes na comunidade do Twitter. O diâmetro de 7 demonstra que as informações podem se espalhar eficientemente na rede, com a capacidade de alcançar outros usuários em um número relativamente pequeno de etapas.
+
+**Youtube Social Network - Explorando a Compartilhamento de Conteúdo**
+
+A rede do YouTube representa conexões de amizade na plataforma e é composta por 1.134.890 vértices e 2.987.624 arestas. O coeficiente de assortatividade de -0,1138 reflete uma tendência decrescente na conexão de usuários no YouTube, sugerindo que a maioria dos usuários possui um número limitado de conexões.
+
+A rede do YouTube possui apenas um componente conectado, com todos os usuários fazendo parte de um único componente gigante (GCC), destacando a forte
+
+ unidade na rede. O coeficiente de agrupamento médio (Avg Clustering) de 0,0808 indica um nível moderado de agrupamento local na rede, com conexões significativas formadas entre os usuários. No entanto, a fração de triângulos fechados é relativamente baixa, com 0,002081, indicando que as conexões mais fortes são menos comuns. O diâmetro de 20 mostra que, em média, o caminho mais curto entre quaisquer dois usuários pode ser percorrido em um número mais substancial de etapas, refletindo a complexidade da rede do YouTube.
+
+**Google Web Graph - Explorando a Web**
+
+O Google Web Graph é uma representação do grafo da web usado pelo Google para indexação e pesquisa na web. A rede é composta por 875.713 vértices e 5.105.039 arestas. O coeficiente de assortatividade de -0,0959 indica uma tendência decrescente na conexão de páginas da web, sugerindo que algumas páginas têm mais conexões do que outras.
+
+A rede do Google Web Graph possui dois componentes conectados distintos, o que significa que algumas páginas da web estão menos interconectadas do que outras. O maior componente gigante (GCC) abrange 97,7% dos vértices, destacando a força da conectividade na rede. O coeficiente de agrupamento médio (Avg Clustering) de 0,5143 sugere que a rede forma agrupamentos locais, embora não tão fortes quanto o Twitter. A presença de um grande número de triângulos (13.391.903) e uma fração de triângulos fechados (0,01911) indica conexões significativas entre as páginas da web. O diâmetro de 21 reflete a complexidade da web, com caminhos mais longos entre as páginas.
+
+**Conclusão: Diversidade de Redes Sociais e Grafos**
+
+Essa análise comparativa destas cinco redes sociais e grafos revela a diversidade impressionante nas estruturas e dinâmicas dessas plataformas. Cada uma delas é única, influenciada pela natureza de suas interações, tamanho e finalidade. O estudo das métricas, como a quantidade de vértices, a quantidade de arestas, o coeficiente de assortatividade, a quantidade de componentes conectados, o tamanho do maior componente gigante (GCC) e o coeficiente de agrupamento médio (Avg Clustering), nos ajuda a compreender melhor o funcionamento de cada rede.
+
+  
